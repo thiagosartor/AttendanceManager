@@ -1,0 +1,52 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+#pushobj {
+	position: absolute;
+	top: 0;
+	left: 500px;
+	color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.jumbotron {
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+.tabClassificacao {
+    width: 680px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white
+}
+.form-control {
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.downgraded {
+    background: #ffc9c9;
+}
+
+.btn {
+    font-size: large;
+}
+.table {
+    font-size: large;
+}
+.selecionado {
+    background : #FFE4E1;
+}
+.selecionada {
+    background : #FFE4E1;
+}
+.selected {
+    background : #FFE4E1;
+}

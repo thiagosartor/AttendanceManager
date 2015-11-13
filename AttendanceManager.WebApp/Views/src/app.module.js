@@ -17,10 +17,7 @@
 
     angular
         .module('diarioacademia', [
-            //common
-            'app.core',
-            'app.common',
-            'app.routes'            
+            //common           
         ]);
 })();
 
