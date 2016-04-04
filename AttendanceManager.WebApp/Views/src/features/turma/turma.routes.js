@@ -5,9 +5,9 @@
         .module('app.turma')
         .config(configRoutes);
 
-    configRoutes.$inject = ['RouteHelpersProvider', '$stateProvider'];
+    configRoutes.$inject = ['$stateProvider'];
 
-    function configRoutes(helper, $stateProvider) {
+    function configRoutes($stateProvider) {
 
         $stateProvider
            .state('app.turma', {

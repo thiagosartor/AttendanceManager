@@ -3,10 +3,36 @@
 <head>
     <title></title>
 	<meta charset="utf-8" />
-    <script src="Scripts/angular.js"></script>
+
+    <!-- Libs  -->
+    <script src="Views/src/common/jquery/jquery-2.1.4.js"></script>
+    <script src="Views/src/common/bootstrap/bootstrap.js"></script>
+    <script src="Views/src/common/angular/angular.js"></script>
+    <script src="Views/src/common/angular/angular-ui-router.js"></script>
+
+    <!-- CSS  -->
+    <link href="Views/src/content/bootstrap/bootstrap.css" rel="stylesheet" />
+
+    <!-- Modules  -->
     <script src="Views/src/app.module.js"></script>
+    <script src="Views/src/features/turma/turma.module.js"></script>
+
+    <!-- Config  -->
+    
+    <!-- Routes  -->
+    <script src="Views/src/features/turma/turma.routes.js"></script>
+
+    <!-- Services  -->
+    <script src="Views/src/features/turma/turma.service.js"></script>
+
+    <!-- Controllers  -->
+    <script src="Views/src/features/turma/controllers/turma-list.controller.js"></script>
+    <script src="Views/src/features/turma/controllers/turma-details.controller.js"></script>
+    <script src="Views/src/features/turma/controllers/turma-create.controller.js"></script>    
+
+
 </head>
-<body>
+<body ng-app="diarioAcademia">
 
 </body>
 </html>

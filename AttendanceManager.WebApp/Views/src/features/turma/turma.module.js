@@ -2,5 +2,5 @@
     'use strict';
 
     angular
-        .module('app.turma', []);
+        .module('app.turma', ['ui.router']);
 })();
